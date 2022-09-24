@@ -10,7 +10,7 @@ export class FlickService {
 			id: 1,
 			genre: "Musical",
 			title: "Book of Mormon",
-			image: "~/assets/bookofmormon.png",
+			image: "~/app/assets/bookofmormon.png",
 			url: "https://nativescript.org/images/ngconf/book-of-mormon.mov",
 			description: `A satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day Saints.`,
 			details: [
@@ -40,7 +40,7 @@ export class FlickService {
 			id: 2,
 			genre: "Musical",
 			title: "Beetlejuice",
-			image: "~/assets/beetlejuicemusical.png",
+			image: "~/app/assets/beetlejuicemusical.png",
 			url: "https://nativescript.org/images/ngconf/beetlejuice.mov",
 			description: `A deceased couple looks for help from a devious bio-exorcist to handle their haunted house.`,
 			details: [
@@ -70,7 +70,7 @@ export class FlickService {
 			id: 3,
 			genre: "Musical",
 			title: "Anastasia",
-			image: "~/assets/anastasia.png",
+			image: "~/app/assets/anastasia.png",
 			url: "https://nativescript.org/images/ngconf/anastasia.mov",
 			description: `The legend of Grand Duchess Anastasia Nikolaevna of Russia.`,
 			details: [
