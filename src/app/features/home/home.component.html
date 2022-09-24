@@ -1,6 +1,11 @@
 <ActionBar title="NativeFlix"></ActionBar>
 
-<ListView height="100%" separatorColor="transparent" [items]="flicks">
+<ListView
+	height="100%"
+	separatorColor="transparent"
+	[items]="flicks"
+	(itemTap)="onFlickTap($event)"
+>
 	<ng-template let-item="item">
 		<GridLayout
 			height="280"

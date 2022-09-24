@@ -9,6 +9,11 @@ const routes: Routes = [
 		loadChildren: () =>
 			import("./features/home/home.module").then((m) => m.HomeModule),
 	},
+	{
+		path: "details/:id",
+		loadChildren: () =>
+			import("./features/details/details.module").then((m) => m.DetailsModule),
+	},
 ];
 
 @NgModule({
